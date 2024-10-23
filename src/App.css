@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+form input{
+  flex-basis: 80%;
+  height: 30px;
+}
+form button{
+  flex-basis: 20%;
+}
+
+.outerDiv{
+  width: 1000px;
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+  list-style: none;
+}
+.outerDiv ul li{
+  color: white;
+  padding: 10px;
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: black;
+}
+.outerDiv ul li span{
+  right: 20px;
+  position: absolute;
+}
